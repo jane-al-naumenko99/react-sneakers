@@ -14,3 +14,15 @@ max-width: 1800px;
 
 }
 
+header {
+  svg {
+    path {
+      fill: #ff0011;
+    }
+
+    path:hover {
+      fill: #07a5d6;
+    }
+  }
+}
+
