@@ -2,6 +2,7 @@ function App() {
   return (<div className="wrapper"> 
  <header> 
     <div className="Headerleft"> 
+      <img width="40" height="40" src="/img/logo.png" alt="Logo" />
       <svg> </svg>
         <div className="headerInfo"> 
           <h3>React Sneakers</h3>
@@ -9,9 +10,9 @@ function App() {
         </div>
     </div>
     <ul className="headerRight">
-      <li> <svg /> <span>1205 руб.</span> </li>
-      <li>  <svg /> <span> Избранное</span> </li>
-      <li> <svg /> <span> Личный кабинет</span> </li>
+      <li> <img width="18" height="18" src="/img/cart.svg" alt="" /> <span>1205 руб.</span> </li>
+      <li>  <img width="18" height="18" src="/img/favorites.svg" alt="" /> <span> Избранное</span> </li>
+      <li> <img width="18" height="18" src="/img/account.svg" alt="" /> <span> Личный кабинет</span> </li>
     </ul>
  </header>
 
