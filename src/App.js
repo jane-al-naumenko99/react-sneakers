@@ -9,10 +9,10 @@ function Card({ imageUrl, title, price }) {
     <div className="card">
       <button
         className="button favorite"
-        onClick={() => setIsFavorite(!isFavorite)}
+        onClick={() => setIsFavorite((prev) => !prev)}
         type="button"
       >
-        <img src={isFavorite ? '/img/heart.svg' : '/img/heart_1.svg'} alt="Heart" />
+        <img src={isFavorite ? '/img/heart-liked.svg' : '/img/heart-unliked.svg'} alt="Heart" />
       </button>
       <img width="133" height="112" src={imageUrl} alt="Sneakers" />
       <h5>{title}</h5>
