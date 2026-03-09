@@ -103,6 +103,33 @@ span {
   }
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+
+.shopping-basket {
+  position: absolute;
+  width: 385px;
+  height: 100%;
+  right: 0;
+  background: #FFFFFF;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.01);
+  padding: 30px;
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, 220px);
@@ -114,3 +141,4 @@ span {
   width: 220px;
   margin: 0;
 }
+

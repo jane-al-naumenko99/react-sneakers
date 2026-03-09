@@ -41,6 +41,20 @@ function Card({ imageUrl, title, price }) {
 function App() {
   return (
     <div className="wrapper clear">
+        <div className="overlay"> 
+          <div className="shopping-basket"> 
+            <h2>Корзина</h2>
+             <div className="empty-basket d-flex flex-column align-center justify-center">
+              <img width="120" height="120" src="/img/empty-cart.jpg" alt="Empty cart" />
+              <h3>Корзина пустая</h3>
+              <p>Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.</p>
+              <button className="button">Вернуться назад</button>
+             </div>
+          </div>
+        </div>
+
+
+
       <header className="d-flex justify-between align-center p-40">
         <div className="d-flex align-center">
           <img width="40" height="40" src="/img/logo.png" alt="Logo" />
