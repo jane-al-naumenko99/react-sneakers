@@ -90,3 +90,15 @@ span {
     width: 200px;
   }
 }
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.cards-grid .card {
+  width: 220px;
+  margin: 0;
+}
